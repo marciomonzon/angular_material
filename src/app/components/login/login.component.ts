@@ -43,7 +43,7 @@ export class LoginComponent implements OnInit {
   }
 
   error() {
-    this._snackbar.open('Invalid user or password!', '', {
+    this._snackbar.open('Invalid user or password!', 'Error', {
       horizontalPosition: 'center',
       verticalPosition: 'bottom',
       duration: 5000
