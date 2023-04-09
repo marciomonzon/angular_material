@@ -19,5 +19,8 @@ userList: User[] = [
     return this.userList.slice();
   }
 
+  addUser(user: User) {
+    this.userList.unshift(user);
+  }
  
 }
